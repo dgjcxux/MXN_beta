@@ -13,14 +13,75 @@
 <body>
 
 <!-- Navbar (sit on top) -->
-<body>
+  
 
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #FF99CC;
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+}
+
+li {
+
+    float: left;
+
+}
+
+li a {
+
+    display: block;
+
+    color: FF99CC;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+
+}
+
+.active {
+
+    background-color: #FF99CC;
+
+}
+
+</style>
+
+</head>
+
+<body>
 <ul>
-<li><a href="#home">主页</a></li>
-<li><a href="#projects">个人作品</a></li>
-<li><a href="#about">公告</a></li>
+  <li><a class="active" href="#home">主页</a></li>
+
+  <li><a href="#projects"></a>个人作品</li>
+  
+  <li><a href="#about">公告</a></li>
+
 </ul>
-</body>
+  </body>
+  
 
 <!-- Header -->
 
